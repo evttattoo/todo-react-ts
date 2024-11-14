@@ -1,0 +1,23 @@
+.button {
+  /* height: 50px; */
+  /* position: absolute; */
+  /* right: 50px; */
+  scale: 1.5;
+  cursor: pointer;
+  transition: all 0.2s;
+  fill: rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+  scale: 1.6;
+}
+
+.todo-span {
+  width: 80%;
+  overflow-wrap: anywhere;
+}
+
+.return-button {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,21 @@
+.form {
+    margin: 0 auto;
+}
+
+.input {
+    appearance: none;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: .5em;
+    padding: .4em 5px;
+
+    border-bottom: .2em solid #78727B;
+    background: none;   
+}
+
+.input::placeholder {
+    color: #D1D0D1;
+    font-size: 1.2em;
+}
+

@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0; 
+
+  background: linear-gradient(to right, #575968, #2A2C3B)
+}
+
+* {
+  box-sizing: border-box;
+  color: #f9fafc;  
+}
+
+
