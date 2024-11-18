@@ -10,7 +10,7 @@ interface Props {
 const CompleteButton: React.FC<Props> = ({ todo, toggleTodo }) => {
   return (
     <FaCheck
-      className="button"
+      className={todo.done ? "button button-done" : "button"}
       onClick={(e) => {
         e.stopPropagation();
         toggleTodo(todo.id);

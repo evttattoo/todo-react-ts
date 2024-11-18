@@ -19,6 +19,13 @@
   margin-bottom: 10px;
 }
 
+.todo-done {
+  color: #a7a5a5;
+  border: 2px solid #a7a5a5;
+}
+.done {
+  color: #c0bebe;
+}
 /* .delete {
     position: absolute;
     right: 5px;

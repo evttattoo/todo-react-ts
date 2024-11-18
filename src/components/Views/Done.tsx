@@ -14,7 +14,7 @@ const Done: React.FC<Props> = ({ todos, moveToTrash }) => {
       {todos.map((todo) => {
         if (todo.done)
           return (
-            <li className="todo done" key={todo.id}>
+            <li className="todo" key={todo.id}>
               <span className="todo-span">{todo.text}</span>{" "}
               <DeleteButton todo={todo} moveToTrash={moveToTrash} />
             </li>

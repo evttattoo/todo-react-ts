@@ -11,7 +11,7 @@ interface Props {
 const DeleteButton: React.FC<Props> = ({ todo, moveToTrash }) => {
   return (
     <MdDelete
-      className="button"
+      className={todo.done ? "button button-done" : "button"}
       onClick={(e) => {
         e.stopPropagation();
         moveToTrash(todo.id);

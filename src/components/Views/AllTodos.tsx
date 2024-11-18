@@ -16,8 +16,10 @@ const AllTodos: React.FC<Props> = ({ todos, toggleTodo, moveToTrash }) => {
       {todos.map((todo: any) => {
         if (!todo.deleted)
           return (
-            <li className={todo.done ? "todo done" : "todo"} key={todo.id}>
-              <span className="todo-span">{todo.text}</span>{" "}
+            <li className={todo.done ? "todo todo-done" : "todo"} key={todo.id}>
+              <span className={todo.done ? "todo-span done" : "todo-span"}>
+                {todo.text}
+              </span>{" "}
               <CompleteButton todo={todo} toggleTodo={toggleTodo} />
               <DeleteButton todo={todo} moveToTrash={moveToTrash} />
             </li>
